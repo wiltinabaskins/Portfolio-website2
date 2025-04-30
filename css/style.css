@@ -1,3 +1,11 @@
 h1 {
     color: cadetblue;
 }
+
+background {
+    background-color: lightblue;
+}
+
+#first-box {
+    background-color: navy;
+}
