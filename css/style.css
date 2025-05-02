@@ -1,11 +1,46 @@
-h1 {
-    color: cadetblue;
+body {
+    margin: 0px;
+    display: flex;
 }
 
-background {
-    background-color: lightblue;
+#main-container {
+    width: 1024px;
+    height: 4585.5px;
+    margin: 0px auto;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B0BED6;
+    right: 50%;
 }
 
-#first-box {
-    background-color: navy;
+#header {
+    width: 1024px;
+    height: 307px;
+    background-color: #000B33;
 }
+
+#nav_bar {
+    width: 1024px;
+    height: 107px;
+    border: solid 1px #000;
+    background-color: #42485C;
+    top: 50%;
+
+}
+
+#about-me-content {
+    width: 545px;
+    height: 485px;
+    border: solid 1px #000;
+    position: absolute;
+    left: 50%;
+    margin-top: 242.5px;
+    top: 50%;
+    
+    
+}
+
+
+
