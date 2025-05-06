@@ -10,24 +10,24 @@ body {
     border: 1px solid #000;
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: #B0BED6;
-    right: 50%;
 }
 
 #header {
     width: 1024px;
     height: 307px;
     background-color: #000B33;
+    color: white;
 }
 
 #nav_bar {
     width: 1024px;
-    height: 107px;
-    border: solid 1px #000;
+    height: 105px;
+    border: solid 1px white;
     background-color: #42485C;
-    top: 50%;
-
+    margin: 0px;
+    top: 30%;
+    position: absolute;
 }
 
 #about-me-content {
@@ -35,11 +35,33 @@ body {
     height: 485px;
     border: solid 1px #000;
     position: absolute;
-    left: 50%;
-    margin-top: 242.5px;
+    left: 32%;
+    margin-top: 50px;
     top: 50%;
-    
-    
+}
+
+#am-title {
+    color: #000;
+    margin-top: 700px;
+    font-size: xx-large;
+    left: 100%;
+}
+
+#about-description {
+    width: 595px;
+    height: 310px;
+    border: solid 1px #000;
+    background-color: #C6BAA3;
+    position: absolute;
+    left: 30%;
+    margin-top: 600px;
+    top: 70%;
+}
+
+#services-title {
+    color: #000;
+    margin-top: 550px;
+    font-size: xx-large;
 }
 
 
