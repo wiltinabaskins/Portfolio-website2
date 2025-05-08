@@ -18,6 +18,15 @@ body {
     height: 307px;
     background-color: #000B33;
     color: white;
+    align-items: center;
+    font-size: xx-large;
+    position: absolute;
+}
+
+#header-content {
+    position: relative;
+    left: 395px;
+    margin-top: 0%;
 }
 
 #nav_bar {
@@ -28,6 +37,7 @@ body {
     margin: 0px;
     top: 30%;
     position: absolute;
+    
 }
 
 #about-me-content {
@@ -44,7 +54,8 @@ body {
     color: #000;
     margin-top: 700px;
     font-size: xx-large;
-    left: 100%;
+    position: relative;
+    left: 400px;
 }
 
 #about-description {
@@ -60,9 +71,54 @@ body {
 
 #services-title {
     color: #000;
-    margin-top: 550px;
+    margin-top: 300px;
+    font-size: xx-large;
+    position: relative;
+    left: 400px;
+}
+
+#services-content {
+    left: 45px;
+    position: relative;
+}
+
+#projects-title {
+    color: #000;
+    margin-top: 100px;
+    font-size: xx-large;
+    position: relative;
+    left: 400px;
+}
+
+#projects-content {
+    position: relative;
+    left: 45px;
+}
+
+#writing-examples {
+    width: 535px;
+    height: 380px;
+    border: solid 1px #000;
+    background-color: white;
+}
+
+#graphic-examples{
+    width: 330px;
+    height: 330px;
+    border: solid 1px #000;
+}
+
+#contact-title {
+    color: #000;
+    margin-top: 100px;
     font-size: xx-large;
 }
 
-
-
+#contact-info {
+    width: 415px;
+    height: 490px;
+    border: solid 1px #000;
+    background-color: white;
+    position: absolute;
+    right: 50px;
+}
