@@ -4,6 +4,7 @@ body {
 }
 
 #main-container {
+    /* this contains all info */
     width: 1024px;
     height: 4585.5px;
     margin: 0px auto;
@@ -15,18 +16,22 @@ body {
 
 #header {
     width: 1024px;
-    height: 307px;
+    height: 305px;
     background-color: #000B33;
+    position: absolute;
     color: white;
     align-items: center;
     font-size: xx-large;
-    position: absolute;
+    letter-spacing: 10px;
+    word-spacing: 600px;
+    text-align: center;
+    padding-top: 100px;
+    text-size-adjust: xx-large;
 }
 
 #header-content {
     position: relative;
-    left: 395px;
-    margin-top: 0%;
+    left: 370px;
 }
 
 #nav_bar {
@@ -35,27 +40,37 @@ body {
     border: solid 1px white;
     background-color: #42485C;
     margin: 0px;
-    top: 30%;
+    top: 45%;
     position: absolute;
-    
+    justify-content: space-between;  
+}
+
+ul {
+    justify-content: space-around;
+    position: absolute;
+    display: flex;
+    top: 345px;
+    left: 390px;
+    list-style-type: none;
+    margin-right: 100px;
 }
 
 #about-me-content {
-    width: 545px;
-    height: 485px;
-    border: solid 1px #000;
+    width: 580px;
+    height: 490px;
     position: absolute;
-    left: 32%;
+    left: 30%;
     margin-top: 50px;
-    top: 50%;
+    top: 60%;
+    color: white;
 }
 
 #am-title {
-    color: #000;
+    color: black;
     margin-top: 700px;
     font-size: xx-large;
     position: relative;
-    left: 400px;
+    left: 380px;
 }
 
 #about-description {
@@ -71,7 +86,7 @@ body {
 
 #services-title {
     color: #000;
-    margin-top: 300px;
+    margin-top: 400px;
     font-size: xx-large;
     position: relative;
     left: 400px;
@@ -92,7 +107,9 @@ body {
 
 #projects-content {
     position: relative;
-    left: 45px;
+    left: 100px;
+    display: grid;
+    grid-row: 50px;
 }
 
 #writing-examples {
@@ -112,6 +129,13 @@ body {
     color: #000;
     margin-top: 100px;
     font-size: xx-large;
+    left: 50px;
+    text-indent: 60px;
+}
+
+#contact-content {
+    position: relative;
+    left: 50px;
 }
 
 #contact-info {
@@ -120,5 +144,23 @@ body {
     border: solid 1px #000;
     background-color: white;
     position: absolute;
-    right: 5px;
+    right: 300px;
+    top: 3200px;
+}
+
+#links-panel {
+    height: 70px;
+    width: 1024px;
+    background-color: #8E9BAD;
+    top: 4000px;
+    margin: 0px;
+    position: absolute;
+    left: 195px;
+}
+
+#links {
+    /* these should link to each part of the webpage */
+    top: 400px;
+    position: relative;
+    left: 50px;
 }
