@@ -4,7 +4,7 @@ body {
 }
 
 #main-container {
-    /* this contains all info */
+    /* this contains all elements in the webpage */
     width: 1024px;
     height: 4585.5px;
     margin: 0px auto;
@@ -21,17 +21,20 @@ body {
     position: absolute;
     color: white;
     align-items: center;
-    font-size: xx-large;
+    font-size: 86.6032px;
     letter-spacing: 10px;
-    word-spacing: 600px;
+    word-spacing: 240px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     text-size-adjust: xx-large;
+    font-family: "DM Serif Display", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 #header-content {
     position: relative;
-    left: 370px;
+    left: 350px;
 }
 
 #nav_bar {
@@ -42,17 +45,20 @@ body {
     margin: 0px;
     top: 45%;
     position: absolute;
-    justify-content: space-between;  
+    
 }
 
 ul {
-    justify-content: space-around;
+    justify-content: space-between;
     position: absolute;
     display: flex;
-    top: 345px;
-    left: 390px;
+    top: 340px;
+    left: 250px;
     list-style-type: none;
-    margin-right: 100px;
+}
+
+ul li {
+    margin-right: 75px;
 }
 
 #about-me-content {
@@ -67,10 +73,14 @@ ul {
 
 #am-title {
     color: black;
-    margin-top: 700px;
+    margin-top: 640px;
     font-size: xx-large;
     position: relative;
-    left: 380px;
+    left: 275px;
+    font-family: "Charmonman", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
 }
 
 #about-description {
@@ -82,14 +92,22 @@ ul {
     left: 30%;
     margin-top: 600px;
     top: 70%;
+    font-family: "DM Serif Display", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
 }
 
 #services-title {
     color: #000;
-    margin-top: 400px;
+    margin-top: 250px;
     font-size: xx-large;
     position: relative;
-    left: 400px;
+    left: 340px;
+    font-family: "Charmonman", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
 }
 
 #services-content {
@@ -102,7 +120,11 @@ ul {
     margin-top: 100px;
     font-size: xx-large;
     position: relative;
-    left: 400px;
+    left: 350px;
+    font-family: "Charmonman", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
 }
 
 #projects-content {
@@ -127,10 +149,13 @@ ul {
 
 #contact-title {
     color: #000;
-    margin-top: 100px;
-    font-size: xx-large;
-    left: 50px;
+    margin-top: 50px;
+    left: 75px;
     text-indent: 60px;
+    font-family: "Charmonman", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
 }
 
 #contact-content {
@@ -145,7 +170,7 @@ ul {
     background-color: white;
     position: absolute;
     right: 300px;
-    top: 3200px;
+    top: 3500px;
 }
 
 #links-panel {
@@ -160,7 +185,11 @@ ul {
 
 #links {
     /* these should link to each part of the webpage */
-    top: 400px;
+    top: 100px;
     position: relative;
     left: 50px;
+    font-family: "Charmonman", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
 }
