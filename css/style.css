@@ -37,29 +37,49 @@ body {
     left: 350px;
 }
 
+ul {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 75px;
+    align-items: center;
+    position: relative;
+    top: 10%;
+}
+
 #nav_bar {
     width: 1024px;
     height: 105px;
     border: solid 1px white;
     background-color: #42485C;
     margin: 0px;
-    top: 45%;
-    position: absolute;
+    position: fixed;
+    top: 35%;
+}
+
+/* #buttonexample {
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    color: #000;
+    transition-property: background-color, color;
+    transition-duration: .5s;
+    background-color: white;
+    color: black;
+}
+
+#buttonexample:hover {
+    transition-property: background-color, color;
+    transition-duration: .5s;
+    background-color: black;
+    color: white;
+} */
     
-}
-
-ul {
-    justify-content: space-between;
-    position: absolute;
-    display: flex;
-    top: 340px;
-    left: 250px;
-    list-style-type: none;
-}
-
-ul li {
-    margin-right: 75px;
-}
 
 #about-me-content {
     width: 580px;
@@ -96,6 +116,7 @@ ul li {
     font-weight: 200;
     font-style: normal;
     color: white;
+    padding: 10px;
 }
 
 #services-title {
