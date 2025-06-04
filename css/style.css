@@ -8,7 +8,6 @@ body {
     width: 1024px;
     height: 4585.5px;
     margin: 0px auto;
-    border: 1px solid #000;
     display: flex;
     flex-direction: column;
     background-color: #B0BED6;
@@ -37,23 +36,24 @@ body {
     left: 350px;
 }
 
-ul {
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 15px;
-    list-style-type: none;
-}
-
 #nav_bar {
     width: 1024px;
     height: 105px;
     border: solid 1px white;
     background-color: #42485C;
-    margin: 0px;
+    
     position: absolute;
     top: 35%;
+}
+
+ul {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 100%;
+    top: 15px;
+    list-style-type: none;
     
 }
 
@@ -80,7 +80,7 @@ ul {
     height: 490px;
     position: relative;
     left: 20%;
-    top: 2px;
+    top: 200px;
     color: white;
     transition-property: background-color, color;
     transition-duration: .5s;
@@ -103,6 +103,7 @@ ul {
     transition-duration: .5s;
     background-color: none;
     color: black;
+    top: 120px;
 }
 
 #am-title:hover {
@@ -169,12 +170,42 @@ ul {
 
 #projects-content {
     position: relative;
-    left: 100px;
     display: flex;
     flex-direction: column;
-    left: 50%;
+    /* left: 50%; */
     width: 60%;
     height: 310px;
+}
+
+#monitor-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+}
+
+#project-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 90%;
+    bottom: 100%;
+}
+
+#project-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20%;
+    bottom: 100%;
+}
+
+#project-3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 90%;
+    bottom: 200%;
 }
 
 #writing-example {
@@ -194,7 +225,7 @@ ul {
 #contact-title {
     color: #000;
     top: 10%;
-    left: 75px;
+    left: 5%;
     text-indent: 60px;
     font-family: "Charmonman", cursive;
     font-weight: 100;
@@ -217,8 +248,9 @@ ul {
     color: white;
     padding: 10px;
     position: absolute;
-    right: 300px;
+    left: 50%;
     top: 3700px;
+    
 }
 
 #links-panel {
