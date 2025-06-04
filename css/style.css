@@ -46,8 +46,6 @@ ul {
     list-style-type: none;
 }
 
-
-
 #nav_bar {
     width: 1024px;
     height: 105px;
@@ -172,15 +170,6 @@ ul {
 #projects-content {
     position: relative;
     left: 100px;
-    display: flex;
-    flex-direction: column;
-    left: 50%;
-    width: 60%;
-    height: 310px;
-}
-
-#column {
-    position: relative;
     display: flex;
     flex-direction: column;
     left: 50%;
