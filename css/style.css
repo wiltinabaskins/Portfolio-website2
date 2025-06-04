@@ -41,7 +41,6 @@ body {
     height: 105px;
     border: solid 1px white;
     background-color: #42485C;
-    
     position: absolute;
     top: 35%;
 }
@@ -51,10 +50,9 @@ ul {
     display: flex;
     align-items: center;
     position: relative;
-    bottom: 100%;
-    top: 15px;
+    bottom: 50%;
+    top: 2px;
     list-style-type: none;
-    
 }
 
 /* #button-example}: 200px;
