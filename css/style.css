@@ -42,7 +42,7 @@ body {
     border: solid 1px white;
     background-color: #42485C;
     position: absolute;
-    top: 35%;
+    top: 40%;
 }
 
 ul {
@@ -50,8 +50,8 @@ ul {
     display: flex;
     align-items: center;
     position: relative;
-    bottom: 50%;
-    top: 2px;
+    bottom: 10%;
+    /* top: 1px; */
     list-style-type: none;
 }
 
